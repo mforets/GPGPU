@@ -1,0 +1,4 @@
+name = "GPGPU"
+uuid = "67981080-2230-4532-b08d-b3506f53fb75"
+authors = ["mforets <mforets@gmail.com>"]
+version = "0.1.0"
