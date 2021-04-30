@@ -34,13 +34,13 @@ equation $1 = AA^{-1} \mod M$.
 Since each letter can be encrypted and decrypted independently, we can use the GPU
 to decrypt a certain text in parallel.
 
-## Serial implementation on the CPU
+## Serial implementation (CPU)
 
-## Multi-threaded implementation on the CPU
+## Multi-threaded implementation (CPU)
 
-## Using CuArrays
+## Using CuArrays (GPU)
 
-## Manually implementing the CUDA kernel
+## Writing the CUDA kernel
 
 ## Multiple-block approach
 
