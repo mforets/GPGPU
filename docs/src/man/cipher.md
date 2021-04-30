@@ -7,10 +7,14 @@ CurrentModule = GPGPU
 
 # Affine cipher
 
-An [affine cipher](https://en.wikipedia.org/wiki/Affine_cipher) is a special case
-of a monoalphabetic substitution cipher, in which where each letter in an alphabet
+In this problem we consider an [affine cipher](https://en.wikipedia.org/wiki/Affine_cipher), which
+is a special case of a monoalphabetic substitution cipher, where each letter in an alphabet
 is mapped to its numeric equivalent, encrypted with a simple mathematical function
-using modular artihmetic, of the form
+using modular artihmetic.
+
+## Problem definition
+
+The encryption function has the form
 
 ```math
 E(x) = (Ax + B) \mod M,
@@ -30,7 +34,13 @@ equation $1 = AA^{-1} \mod M$.
 Since each letter can be encrypted and decrypted independently, we can use the GPU
 to decrypt a certain text in parallel.
 
-## Implementing the kernel
+## Serial implementation on the CPU
+
+## Multi-threaded implementation on the CPU
+
+## Using CuArrays
+
+## Manually implementing the CUDA kernel
 
 ## Multiple-block approach
 
