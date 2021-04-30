@@ -33,3 +33,5 @@ to decrypt a certain text in parallel.
 ## Implementing the kernel
 
 ## Multiple-block approach
+
+In this part extend the algorithm to work with multiple blocks of threads such that it can process texts of arbitrary length.
